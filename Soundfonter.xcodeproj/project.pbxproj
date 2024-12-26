@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1257B6AC2D1D4BD3001AD886 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1257B6AB2D1D4BD3001AD886 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		1246C91B2D1A412C001AB73E /* Soundfonter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundfonter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1257B6AB2D1D4BD3001AD886 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		1246C9122D1A412C001AB73E = {
 			isa = PBXGroup;
 			children = (
+				1257B6AB2D1D4BD3001AD886 /* README.md */,
 				1246C91D2D1A412C001AB73E /* Soundfonter */,
 				1246C91C2D1A412C001AB73E /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1257B6AC2D1D4BD3001AD886 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +270,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = floren.Soundfonter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,6 +299,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = floren.Soundfonter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
